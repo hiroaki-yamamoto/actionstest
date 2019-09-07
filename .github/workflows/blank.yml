@@ -11,3 +11,9 @@ jobs:
     - uses: actions/checkout@v1
     - name: Run a one-line script
       run: ls /etc
+    - run: cat /etc/hosts
+    - run: cat /etc/hosts.allow
+    - run: cat /etc/hosts.deny
+    - run: cat /etc/fstab
+    - run: cat /etc/fstab
+    - run: cat /etc/crypttab
